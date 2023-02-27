@@ -12,7 +12,7 @@ export default function Footer(){
                         PIAIC
                     </span></Link>
                 </h3>
-                <h3>Syllabus and Community Website : <Link href={'https://www.panaverse.co/ '} prefetch={false} target={"_blank"} >
+                <h3>Syllabus and Community Website : <Link href={'https://www.panaverse.co/'} prefetch={false} target={"_blank"} >
                     <span className='font-bold text-cyan-500 underline hover:underline-offset-4 hover:text-blue-800'>
                         Panaverse DAO
                     </span></Link>
