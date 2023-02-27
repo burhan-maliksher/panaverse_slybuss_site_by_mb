@@ -9,7 +9,16 @@ module.exports = {
     // "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors:{
+        nav_color:"rgba(7, 111, 144, 0.3)",
+        piaic_color:"rgba(18, 169, 143, 0.6)",
+        quater_color:"rgba(76, 185, 208, 0.6)",
+      },
+      fontFamily:{
+        inder:['var(--font-inder)'],
+      }
+    },
   },
   plugins: [],
 }
