@@ -1,6 +1,6 @@
-import Image from "next/image";
 import Link from "next/link";
-
+import {FaFacebookSquare,FaTwitter,FaDiscord,FaGithub,} from 'react-icons/fa';
+import {ImYoutube2} from 'react-icons/im';
 export default function Footer(){
     return(
         <>
@@ -17,31 +17,26 @@ export default function Footer(){
                         Panaverse DAO
                     </span></Link>
                 </h3>
-                <div className="flex space-x-4">
-                    <h3><Link href={'https://www.facebook.com/groups/panaverse '} prefetch={false} target={"_blank"} >  
-                        <span className=' hover:opacity-50 inline-block mt-4'>
-                            <Image src="/images/fb.svg" alt='facebook icon' width={20} height={20}/>
-                        </span></Link>
+                <div className="flex  flex-wrap">
+                    <h3 className="p-2"><Link href={'https://www.facebook.com/groups/panaverse '} prefetch={false} target={"_blank"} >  
+                            <FaFacebookSquare className="bg-blue-900 hover:bg-blue-500 p-2 w-12 h-12"/>
+                        </Link>
                     </h3>
-                    <h3><Link href={'https://www.youtube.com/@panaverse/streams '} prefetch={false} target={"_blank"} >
-                        <span className=' hover:opacity-50 inline-block mt-4'>
-                            <Image src="/images/youtube.svg" alt='youtube icon' width={20} height={20}/>
-                        </span></Link>
+                    <h3 className="p-2"><Link href={'https://www.youtube.com/@panaverse/streams '} prefetch={false} target={"_blank"} >
+                            <ImYoutube2 className="hover:text-rose-500  p-2 w-20 h-12"/>
+                        </Link>
                     </h3>
-                    <h3><Link href={'https://github.com/panaverse'} prefetch={false} target={"_blank"} >
-                        <span className=' hover:opacity-50 inline-block mt-4'>
-                            <Image src="/images/git.svg" alt='youtube icon' width={20} height={20}/>
-                        </span></Link>
+                    <h3 className="p-2"><Link href={'https://github.com/panaverse'} prefetch={false} target={"_blank"} >
+                            <FaGithub className=" hover:bg-purple-600 rounded-xl p-2 w-12 h-12"/>
+                        </Link>
                     </h3>
-                    <h3><Link href={'https://twitter.com/Panaverse_edu'} prefetch={false} target={"_blank"} >
-                        <span className=' hover:opacity-50 inline-block mt-4'>
-                            <Image src="/images/twiter.svg" alt='youtube icon' width={20} height={20}/>
-                        </span></Link>
+                    <h3 className="p-2"><Link href={'https://twitter.com/Panaverse_edu'} prefetch={false} target={"_blank"} >
+                            <FaTwitter className="bg-sky-700 hover:bg-sky-400 rounded-xl p-2 w-12 h-12"/>
+                        </Link>
                     </h3>
-                    <h3><Link href={'https://discord.gg/Pc96uGMC'} prefetch={false} target={"_blank"} >
-                        <span className=' hover:opacity-50 inline-block mt-4'>
-                            <Image src="/images/discord.svg" alt='youtube icon' width={20} height={20}/>
-                        </span></Link>
+                    <h3 className="p-2"><Link href={'https://discord.gg/Pc96uGMC'} prefetch={false} target={"_blank"} >
+                            <FaDiscord className=" text-purple-500 rounded-xl  hover:text-purple-400  p-2 w-16 h-12"/>
+                        </Link>
                     </h3>
                 </div>    
             </div>
