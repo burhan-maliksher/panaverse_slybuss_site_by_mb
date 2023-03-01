@@ -3,7 +3,7 @@ import Link from "next/link";
 export default function About(){
     return(
         <>
-            <div className='flex flex-col space-y-10 mt-4 font-serif md:text-xl text-center bg-nav_color mx-5 rounded-xl mb-4 h-auto  p-5'>  
+            <div className='flex flex-col space-y-10 md:mt-20 mt-4 font-serif md:text-xl text-center bg-nav_color mx-5 rounded-xl mb-4 h-auto  p-5'>  
 
                 <div className="flex flex-col">
                     <p className="text-green-700 hover:text-green-500 font-bold"><Link href={'https://www.piaic.org'} prefetch={false} target={"_blank"}>

@@ -1,15 +1,13 @@
 import Link from "next/link";
-import Sidebar from "./sidebar";
-
 export default function Syllabus() {
   return (
-    <div className='flex flex-row md:mt-12 '>
-         <Sidebar/>       
+    <div className='flex md:flex-row flex-col md:mt-12 '>
 
-        <div className='flex flex-col  m-4 w-5/6 ml-96 justify-center text-center '>
-        <header> 
+        <div className='flex flex-col md:m-4 md:w-5/6 xl:ml-96 md:ml-52 p-4 justify-center text-center '>
+            <header> 
+
                 <h1 className='font-bold text-lg mb-8 lg:text-4xl'>Detailed Course Syllabus</h1>
-                <h2 className='font-inder font-bold'>Quarter I (Core)</h2>
+                <h2 id="q1-c"  className='font-inder font-bold'>Quarter I (Core)</h2>
                 <h2>CS-101: Object-Oriented Programming using TypeScript</h2>
                 <h2 className='mt-4 font-inder font-bold'>Duration: 13 Weeks</h2>
             </header>
@@ -45,7 +43,7 @@ export default function Syllabus() {
                         <li className="pt-2 hover:text-cyan-600 underline hover:underline-offset-2"><Link href={"https://github.com/panaverse/typescript-node-projects/blob/main/getting-started-exercises.md"} target={"_blank"} prefetch={false}>
                             Getting Started Exercises with TypeScript and Node.js</Link></li>
                         <li className="pt-2 text-black">Fundamentals of JavaScript and Node.js Quiz</li>
-                        <li className="pt-2 hover:text-cyan-600 underline hover:underline-offset-2"><Link href={"https://docs.google.com/presentation/d/1ADk87hQ0Etr2PfmN9XH7TQ0CHl6XSP_7JWNUbzPdDNc/edit?usp=sharing"} target={"_blank"} prefetch={false}>
+                        <li  className="pt-2 hover:text-cyan-600 underline hover:underline-offset-2"><Link href={"https://docs.google.com/presentation/d/1ADk87hQ0Etr2PfmN9XH7TQ0CHl6XSP_7JWNUbzPdDNc/edit?usp=sharing"} target={"_blank"} prefetch={false}>
                             Virtual and Augmented  Metaverse User Guide</Link></li>
                     </ol>
                 </ol>
