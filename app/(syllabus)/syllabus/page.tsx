@@ -582,22 +582,335 @@ export default function Syllabus() {
                                     Learn Next.js 13 Learning Repo
                                 </Link>
                                 </li>
+                                
+                            </ol>
+                            <li className="mt-4 font-medium">2.Next.js 13 using Chakra UI (Remote Zoom Class) </li>
+                            <ol className="pl-4  text-blue-900">
                                 <li className="pt-2 hover:text-cyan-600 underline hover:underline-offset-2">
-                                <Link
+                                    <Link
                                     href={
-                                    "https://www.youtube.com/playlist?list=PLKvqnz8z1zWQSWIen_zUSEBmtqzPLuRob"
+                                    "https://www.freecodecamp.org/news/css-flexbox-complete-guide/"
                                     }
                                     target={"_blank"}
                                     prefetch={false}
                                 >
-                                    Learn CSS Intro by Hira Khan (Watch Recorded Videos)
+                                    CSS Flexbox Explained – Complete Guide to Flexible Containers and Flex Items
+                                </Link>
+                                </li>
+                                <li className="pt-2 hover:text-cyan-600 underline hover:underline-offset-2">
+                                    <Link
+                                    href={
+                                    "https://chakra-ui.com/getting-started"
+                                    }
+                                    target={"_blank"}
+                                    prefetch={false}
+                                >
+                                    Chakra UI Docs
                                 </Link>
                                 </li>
                                 <li></li>
                             </ol>
+                            <li className="mt-4 font-medium">3.UI/UX Design with Figma, TailwindCSS, and Chakra UI (Remote  Zoom Class) </li>
+                            <ol className="pl-4  text-blue-900">
+                                <li className="pt-2 hover:text-cyan-600 underline hover:underline-offset-2">
+                                    <Link
+                                    href={
+                                    "https://www.amazon.com/Designing-Prototyping-Interfaces-Figma-interactive/dp/180056418X/ref=sr_1_1_sspa "
+                                    }
+                                    target={"_blank"}
+                                    prefetch={false}
+                                >
+                                    Designing and Prototyping Interfaces with Figma: Learn essential UX/UI design principles by creating interactive prototypes for mobile, tablet, and desktop by Fabio Staiano
+                                </Link>
+                                </li>
+                                <li className="pt-2 hover:text-cyan-600 underline hover:underline-offset-2">
+                                    <Link
+                                    href={
+                                    "https://www.figma.com/community/file/768809027799962739"
+                                    }
+                                    target={"_blank"}
+                                    prefetch={false}
+                                >
+                                    Figma Design Kit for TailwindCSS
+                                </Link>
+                                </li>
+                                <li className="pt-2 hover:text-cyan-600 underline hover:underline-offset-2">
+                                    <Link
+                                    href={
+                                    "https://www.figma.com/community/file/971408767069651759 "
+                                    }
+                                    target={"_blank"}
+                                    prefetch={false}
+                                >
+                                    Chakra UI Figma Kit
+                                </Link>
+                                
+                                </li>
+                                <li></li>
                             </ol>
-                        </div>          
+                            <li className="mt-4 font-medium">4.API Routes with Next.js (Remote Zoom Class) </li>
+                            <ol className="pl-4  text-blue-900">
+                                <li className="pt-2 hover:text-cyan-600 underline hover:underline-offset-2">
+                                    <Link
+                                    href={
+                                    "https://nextjs.org/docs/api-routes/introduction"
+                                    }
+                                    target={"_blank"}
+                                    prefetch={false}
+                                >
+                                    API Routes
+                                </Link>
+                                </li>        
+                            </ol>
+                            <li className="mt-4 font-medium">5.APIs with Next.js and tRPC (Remote Zoom Class) </li>
+                            <ol className="pl-4  text-blue-900">
+                                <li className="pt-2 hover:text-cyan-600 underline hover:underline-offset-2">
+                                    <Link
+                                    href={
+                                    "https://codevoweb.com/build-a-trpc-crud-api-example-with-next-js/"
+                                    }
+                                    target={"_blank"}
+                                    prefetch={false}
+                                >
+                                    Build a tRPC CRUD API Example with Next.js	
+                                </Link>
+                                </li>
+                                <li className="pt-2 hover:text-cyan-600 underline hover:underline-offset-2">
+                                    <Link
+                                    href={
+                                    "https://brockherion.dev/blog/posts/stop-building-rest-apis-for-your-next-apps/"
+                                    }
+                                    target={"_blank"}
+                                    prefetch={false}
+                                >
+                                    Stop building REST APIs for your Next.js apps, use tRPC instead
+                                </Link>
+                                </li>
+                                <li></li>
+                            </ol>
+                            <li className="mt-4 font-medium">6.SQL and Prisma </li>
+                            <ol className="pl-4  text-blue-900">
+                                <li className="pt-2 hover:text-cyan-600 underline hover:underline-offset-2">
+                                    <Link
+                                    href={
+                                    "https://www.prisma.io/docs/getting-started/setup-prisma/start-from-scratch/relational-databases-typescript-postgres "
+                                    }
+                                    target={"_blank"}
+                                    prefetch={false}
+                                >
+                                    Start from scratch with relational databases
+                                </Link>
+                                </li>
+                                <li className="pt-2 hover:text-cyan-600 underline hover:underline-offset-2">
+                                    <Link
+                                    href={
+                                    "https://www.youtube.com/watch?v=5hzZtqCNQKk"
+                                    }
+                                    target={"_blank"}
+                                    prefetch={false}
+                                >
+                                    SQL For Beginners Video Tutorial
+                                </Link>
+                                </li>
+                                <li className="pt-2 hover:text-cyan-600 underline hover:underline-offset-2">
+                                    <Link
+                                    href={
+                                    "https://www.freecodecamp.org/news/dbms-and-sql-basics/"
+                                    }
+                                    target={"_blank"}
+                                    prefetch={false}
+                                >
+                                    Database Management Systems and SQL – Tutorial for Beginners
+                                </Link>
+                                
+                                </li>
+                                <li></li>
+                            </ol>
+                            <li className="mt-4 font-medium">7.Next.js 13 using TailwindCSS (Remote Zoom Class)</li>
+                            <ol className="pl-4  text-blue-900">
+                                <li className="pt-2 hover:text-cyan-600 underline hover:underline-offset-2">
+                                    <Link
+                                    href={
+                                    "https://pragprog.com/titles/tailwind2/modern-css-with-tailwind-second-edition/ "
+                                    }
+                                    target={"_blank"}
+                                    prefetch={false}
+                                >
+                                    Modern CSS with Tailwind, Second Edition by Noel Rappin
+                                </Link>
+                                </li>        
+                            </ol>
+                            <li className="mt-4 font-medium">8.AWS Application Composer (Remote Zoom Class) </li>
+                            <ol className="pl-4  text-blue-900">
+                                <li className="pt-2 hover:text-cyan-600 underline hover:underline-offset-2">
+                                    <Link
+                                    href={
+                                    "https://www.youtube.com/watch?v=BujE_tik5r8 "
+                                    }
+                                    target={"_blank"}
+                                    prefetch={false}
+                                >
+                                    What is AWS Application Composer?
+                                </Link>
+                                </li>
+                                <li className="pt-2 hover:text-cyan-600 underline hover:underline-offset-2">
+                                    <Link
+                                    href={
+                                    "https://www.youtube.com/watch?v=p411uh363jQ "
+                                    }
+                                    target={"_blank"}
+                                    prefetch={false}
+                                >
+                                    Event-driven apps with AWS Application Composer
+                                </Link>
+                                </li>
+                                <li className="pt-2 hover:text-cyan-600 underline hover:underline-offset-2">
+                                    <Link
+                                    href={
+                                    "https://aws.amazon.com/application-composer/ "
+                                    }
+                                    target={"_blank"}
+                                    prefetch={false}
+                                >
+                                    Visually design and build serverless applications quickly
+                                </Link>
+                                
+                                </li>
+                                <li className="pt-2 hover:text-cyan-600 underline hover:underline-offset-2">
+                                    <Link
+                                    href={
+                                    " https://aws.amazon.com/free/ "
+                                    }
+                                    target={"_blank"}
+                                    prefetch={false}
+                                >
+                                    <b>Must Have: Create Free AWS Account</b><br></br>
+                                     AWS Free Tier                                    
+                                </Link>
+                                </li>
+                                <li className="mt-4 font-medium">
+                                    Note: For AWS Free Tier you will need a credit or debit card. The easiest way for Pakistani students is to open a bank account with Meezan Bank. Open a Meezan Aasan Account if you have no earning proof. Meezan Bank will charge Rs. 1100 for ATM Debit Card and there is a requirement of Rs. 100 minimum deposit. The card will be delivered in a few weeks. Our students have reported that this Debit card works with AWS.
+                                </li>
+                                <li className="pt-2 hover:text-cyan-600 underline hover:underline-offset-2">
+                                    <Link
+                                    href={
+                                    "https://www.nayapay.com/"
+                                    }
+                                    target={"_blank"}
+                                    prefetch={false}
+                                >
+                                    Now you can create a virtual VISA Debit card through the NayaPay app
+                                </Link>
+                                <li className="mt-4 font-medium">
+                                    which can be used to create AWS/GCP/Azure accounts. This is good news for those students who find it difficult to create physical debit and credit cards from banks.
+                                </li>
+                          
+                                </li>
+                                <li className="pt-2 hover:text-cyan-600 underline hover:underline-offset-2">
+                                    <Link
+                                    href={
+                                    "https://pages.awscloud.com/adoptf90d_GLOBAL_POC-credits.html "
+                                    }
+                                    target={"_blank"}
+                                    prefetch={false}
+                                >
+                                    You can also get a $300 credit
+                                </Link>
+                                
+                                </li>
+                            </ol>
+                            <li className="mt-4 font-medium">9.Multi-Cloud GraphQL Serverless API Development with Cloud Development Kit for Terraform (CDKTF) (Remote Zoom Class) </li>
+                            <ol className="pl-4  text-blue-900">
+                                <li className="pt-2 hover:text-cyan-600 underline hover:underline-offset-2">
+                                    <Link
+                                    href={
+                                    "https://github.com/panaverse/learn-multicloud-api-development  "
+                                    }
+                                    target={"_blank"}
+                                    prefetch={false}
+                                >
+                                    Learn Multicloud Serverless API Development using CDK Terraform in Baby Steps
+                                </Link>
+                                </li>
+                                <li className="mt-4 font-medium">
+                                    Web 2.0 Projects
+                                </li>
+
+                                <li className="pt-2 hover:text-cyan-600 underline hover:underline-offset-2">
+                                    <Link
+                                    href={
+                                    "https://github.com/panaverse/nextjs-projects"
+                                    }
+                                    target={"_blank"}
+                                    prefetch={false}
+                                >
+                                    Next.js Projects
+                                </Link>
+                                </li>
+                                <li className="pt-2 hover:text-cyan-600 underline hover:underline-offset-2">
+                                    <Link
+                                    href={
+                                    "https://github.com/panaverse/styling-nextjs-projects "
+                                    }
+                                    target={"_blank"}
+                                    prefetch={false}
+                                >
+                                    Styling Next.js Projects using TailwindCSS and Chakra UI
+                                </Link>
+                                
+                                </li>
+                                <li className="pt-2 hover:text-cyan-600 underline hover:underline-offset-2">
+                                    <Link
+                                    href={
+                                    " 	https://github.com/ogzhanolguncu/min-todo  "
+                                    }
+                                    target={"_blank"}
+                                    prefetch={false}
+                                >
+                                    Todo Full-Stack App
+                                </Link>
+                                </li>
+                                <li className="pt-2 hover:text-cyan-600 underline hover:underline-offset-2">
+                                    <Link
+                                    href={
+                                    "	https://www.youtube.com/watch?v=nzJsYJPCc80 "
+                                    }
+                                    target={"_blank"}
+                                    prefetch={false}
+                                >
+                                    Build a Twitter Clone
+                                </Link>
+                                </li>
+                            </ol>
+                    </ol>
+                </div>          
 
     </div>
   );
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

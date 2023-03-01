@@ -30,46 +30,46 @@ export default function Sidebar() {
             <h4 className="text-slate-400 text-sm">Core Courses</h4>
             <button className='hover:text-black hover:bg-white hover:scale-150 hover:my-1 duration-300 delay-75 cursor-pointer  text-lg font-medium'>
                 <Link onClick={CloseMenu} href={"#q1-c"} target={'_parent'}>Quater 1</Link></button>
-            <p className='hover:text-black hover:bg-white cursor-pointer hover:scale-150 hover:my-1 duration-300 delay-75 text-lg font-medium'>
-                <Link onClick={CloseMenu} href={"#q2-c"} target={'_parent'}></Link>Quater 2</p>
-            <p className='hover:text-black hover:bg-white cursor-pointer hover:scale-150 hover:my-1 duration-300 delay-75 text-lg font-medium'>
-                <Link onClick={CloseMenu} href={"#q3-c"} target={'_parent'}></Link>Quater 3</p>
+            <button className='hover:text-black hover:bg-white cursor-pointer hover:scale-150 hover:my-1 duration-300 delay-75 text-lg font-medium'>
+                <Link onClick={CloseMenu} href={"#q2-c"} target={'_parent'}>Quater 2</Link></button>
+            <button className='hover:text-black hover:bg-white cursor-pointer hover:scale-150 hover:my-1 duration-300 delay-75 text-lg font-medium'>
+                <Link onClick={CloseMenu} href={"#q3-c"} target={'_parent'}>Quater 3</Link></button>
             <h4 className="text-slate-400 ">Specialization</h4>
-            <p  className='hover:text-black hover:scale-150 hover:my-1 duration-300 delay-75 hover:bg-white cursor-pointer  text-lg font-medium'>
-                <Link onClick={CloseMenu} href={"#c-web"} target={'_parent'}></Link>Quater 4</p>
-            <p  className='hover:text-black hover:scale-150 hover:my-1 duration-300 delay-75 hover:bg-white cursor-pointer  text-lg font-medium'>
-                <Link onClick={CloseMenu} href={"#c-ai"} target={'_parent'}></Link>Quater 5
-            </p>
+            <button  className='hover:text-black hover:scale-150 hover:my-1 duration-300 delay-75 hover:bg-white cursor-pointer  text-lg font-medium'>
+                <Link onClick={CloseMenu} href={"#c-web"} target={'_parent'}>Quater 4</Link></button>
+            <button  className='hover:text-black hover:scale-150 hover:my-1 duration-300 delay-75 hover:bg-white cursor-pointer  text-lg font-medium'>
+                <Link onClick={CloseMenu} href={"#c-ai"} target={'_parent'}>Quater 5</Link>
+            </button>
             
             <h4 className="text-slate-400 ">Quiz Details</h4>
             <h4 className="text-slate-400 text-sm">Core Courses</h4>
-            <p className='hover:text-black hover:bg-white hover:scale-150 hover:my-1 duration-300 delay-75 cursor-pointer  text-lg font-medium'>
-                <Link onClick={CloseMenu} href={"#q1-c"} target={'_parent'}></Link>Quater 1</p>
-            <p className='hover:text-black hover:bg-white cursor-pointer hover:scale-150 hover:my-1 duration-300 delay-75 text-lg font-medium'>
-                <Link onClick={CloseMenu} href={"#q2-c"} target={'_parent'}></Link>Quater 2</p>
-            <p className='hover:text-black hover:bg-white cursor-pointer hover:scale-150 hover:my-1 duration-300 delay-75 text-lg font-medium'>
-                <Link onClick={CloseMenu} href={"#q3-c"} target={'_parent'}></Link>Quater 3</p>
+            <button className='hover:text-black hover:bg-white hover:scale-150 hover:my-1 duration-300 delay-75 cursor-pointer  text-lg font-medium'>
+                <Link onClick={CloseMenu} href={"#q1-c"} target={'_parent'}>Quater 1</Link></button>
+            <button className='hover:text-black hover:bg-white cursor-pointer hover:scale-150 hover:my-1 duration-300 delay-75 text-lg font-medium'>
+                <Link onClick={CloseMenu} href={"#q2-c"} target={'_parent'}>Quater 2</Link></button>
+            <button className='hover:text-black hover:bg-white cursor-pointer hover:scale-150 hover:my-1 duration-300 delay-75 text-lg font-medium'>
+                <Link onClick={CloseMenu} href={"#q3-c"} target={'_parent'}>Quater 3</Link></button>
             <h4 className="text-slate-400 ">Specialization</h4>
-            <p  className='hover:text-black hover:scale-150 hover:my-1 duration-300 delay-75 hover:bg-white cursor-pointer  text-lg font-medium'>
-                <Link onClick={CloseMenu} href={"#c-web"} target={'_parent'}></Link>Quater 4</p>
-            <p  className='hover:text-black hover:scale-150 hover:my-1 duration-300 delay-75 hover:bg-white cursor-pointer  text-lg font-medium'>
-                <Link onClick={CloseMenu} href={"#c-ai"} target={'_parent'}></Link>Quater 5
-            </p>
+            <button  className='hover:text-black hover:scale-150 hover:my-1 duration-300 delay-75 hover:bg-white cursor-pointer  text-lg font-medium'>
+                <Link onClick={CloseMenu} href={"#c-web"} target={'_parent'}>Quater 4</Link></button>
+            <button  className='hover:text-black hover:scale-150 hover:my-1 duration-300 delay-75 hover:bg-white cursor-pointer  text-lg font-medium'>
+                <Link onClick={CloseMenu} href={"#c-ai"} target={'_parent'}>Quater 5</Link>
+            </button>
 
             <h4 className="text-slate-400 ">Assignment Details</h4>
             <h4 className="text-slate-400 text-sm">Core Courses</h4>
-            <p className='hover:text-black hover:bg-white hover:scale-150 hover:my-1 duration-300 delay-75 cursor-pointer  text-lg font-medium'>
-                <Link onClick={CloseMenu} href={"#q1-c"} target={'_parent'}></Link>Quater 1</p>
-            <p className='hover:text-black hover:bg-white cursor-pointer hover:scale-150 hover:my-1 duration-300 delay-75 text-lg font-medium'>
-                <Link onClick={CloseMenu} href={"#q2-c"} target={'_parent'}></Link>Quater 2</p>
-            <p className='hover:text-black hover:bg-white cursor-pointer hover:scale-150 hover:my-1 duration-300 delay-75 text-lg font-medium'>
-                <Link onClick={CloseMenu} href={"#q3-c"} target={'_parent'}></Link>Quater 3</p>
+            <button className='hover:text-black hover:bg-white hover:scale-150 hover:my-1 duration-300 delay-75 cursor-pointer  text-lg font-medium'>
+                <Link onClick={CloseMenu} href={"#q1-c"} target={'_parent'}>Quater 1</Link></button>
+            <button className='hover:text-black hover:bg-white cursor-pointer hover:scale-150 hover:my-1 duration-300 delay-75 text-lg font-medium'>
+                <Link onClick={CloseMenu} href={"#q2-c"} target={'_parent'}>Quater 2</Link></button>
+            <button className='hover:text-black hover:bg-white cursor-pointer hover:scale-150 hover:my-1 duration-300 delay-75 text-lg font-medium'>
+                <Link onClick={CloseMenu} href={"#q3-c"} target={'_parent'}>Quater 3</Link></button>
             <h4 className="text-slate-400 ">Specialization</h4>
-            <p  className='hover:text-black hover:scale-150 hover:my-1 duration-300 delay-75 hover:bg-white cursor-pointer  text-lg font-medium'>
-                <Link onClick={CloseMenu} href={"#c-web"} target={'_parent'}></Link>Quater 4</p>
-            <p  className='hover:text-black hover:scale-150 hover:my-1 duration-300 delay-75 hover:bg-white cursor-pointer  text-lg font-medium'>
-                <Link onClick={CloseMenu} href={"#c-ai"} target={'_parent'}></Link>Quater 5
-            </p>    
+            <button  className='hover:text-black hover:scale-150 hover:my-1 duration-300 delay-75 hover:bg-white cursor-pointer  text-lg font-medium'>
+                <Link onClick={CloseMenu} href={"#c-web"} target={'_parent'}>Quater 4</Link></button>
+            <button  className='hover:text-black hover:scale-150 hover:my-1 duration-300 delay-75 hover:bg-white cursor-pointer  text-lg font-medium'>
+                <Link onClick={CloseMenu} href={"#c-ai"} target={'_parent'}>Quater 5</Link>
+            </button>    
                 <br></br>
                 <br></br>
                 <br></br>
