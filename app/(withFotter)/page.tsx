@@ -57,7 +57,7 @@ export default function Home() {
                 CS-101: Object-Oriented Programming using TypeScript
               </p>
               <button className='font-inder font-bold py-2 px-10  bg-blue-900 text-cyan-500 rounded-xl hover:drop-shadow-[10px_20px_4px_rgba(0,0,0,0.25)] hover:bg-cyan-500 hover:text-blue-900'>
-                <Link href={"https://www.piaic.org/"}>View Details</Link> 
+                <Link href={"./syllabus#q1-c"}>View Details</Link> 
               </button>
             </div>
 
