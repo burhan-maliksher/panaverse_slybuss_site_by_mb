@@ -82,7 +82,7 @@ export default function Home() {
                 $-101: Dollar Making Bootcamp - Full-Stack Template and API Product Development
               </p>
               <button className='font-inder font-bold py-2 px-10  bg-blue-900 text-cyan-500 rounded-xl hover:drop-shadow-[10px_20px_4px_rgba(0,0,0,0.25)] hover:bg-cyan-500 hover:text-blue-900'>
-                <Link href={"https://www.piaic.org/"}>View Details</Link> 
+                <Link href={"./syllabus#q3-c"}>View Details</Link> 
               </button>
             </div>
 
@@ -157,7 +157,7 @@ export default function Home() {
                     W3-351: Developing Smart Contracts and Planet-Scale Web 3.0 Dapps
                   </p>
                   <button className='font-inder font-bold py-2 px-10  bg-blue-900 text-cyan-500 rounded-xl hover:drop-shadow-[10px_20px_4px_rgba(0,0,0,0.25)] hover:bg-cyan-500 hover:text-blue-900'>
-                    <Link href={"https://www.piaic.org/"}>View Details</Link> 
+                    <Link href={"./syllabus#c-web-4"}>View Details</Link> 
                   </button>
                 </div>
 
@@ -169,7 +169,7 @@ export default function Home() {
                     MV-361: Developing Planet-Scale Open Virtual and Augmented Metaverse Experiences
                   </p>
                   <button className='font-inder font-bold py-2 px-10  bg-blue-900 text-cyan-500 rounded-xl hover:drop-shadow-[10px_20px_4px_rgba(0,0,0,0.25)] hover:bg-cyan-500 hover:text-blue-900'>
-                    <Link href={"https://www.piaic.org/"}>View Details</Link> 
+                    <Link href={"./syllabus#c-web-5"}>View Details</Link> 
                   </button>
                 </div>
               </div>
@@ -205,7 +205,7 @@ export default function Home() {
                     AI-361: Deep Learning and MLOps
                   </p>
                   <button className='font-inder font-bold py-2 px-10  bg-blue-900 text-cyan-500 rounded-xl hover:drop-shadow-[10px_20px_4px_rgba(0,0,0,0.25)] hover:bg-cyan-500 hover:text-blue-900'>
-                    <Link href={"https://www.piaic.org/"}>View Details</Link> 
+                    <Link href={"./syllabus#c-ai-4"}>View Details</Link> 
                   </button>
                 </div>
 
@@ -217,7 +217,7 @@ export default function Home() {
                     AI-351: Developing Planet-Scale Intelligent APIs and Python Programming
                   </p>
                   <button className='font-inder font-bold py-2 px-10  bg-blue-900 text-cyan-500 rounded-xl hover:drop-shadow-[10px_20px_4px_rgba(0,0,0,0.25)] hover:bg-cyan-500 hover:text-blue-900'>
-                    <Link href={"https://www.piaic.org/"}>View Details</Link> 
+                    <Link href={"./syllabus#c-ai-5"}>View Details</Link> 
                   </button>
                 </div>
               </div>
@@ -252,7 +252,7 @@ export default function Home() {
                     CN-351: Certified Kubernetes Application Developer (CKAD)
                   </p>
                   <button className='font-inder font-bold py-2 px-10  bg-blue-900 text-cyan-500 rounded-xl hover:drop-shadow-[10px_20px_4px_rgba(0,0,0,0.25)] hover:bg-cyan-500 hover:text-blue-900'>
-                    <Link href={"https://www.piaic.org/"}>View Details</Link> 
+                    <Link href={"./syllabus#c-cnc-4"}>View Details</Link> 
                   </button>
                 </div>
 
@@ -266,7 +266,7 @@ export default function Home() {
                     etaverse Experiences
                   </p>
                   <button className='font-inder font-bold py-2 px-10  bg-blue-900 text-cyan-500 rounded-xl hover:drop-shadow-[10px_20px_4px_rgba(0,0,0,0.25)] hover:bg-cyan-500 hover:text-blue-900'>
-                    <Link href={"https://www.piaic.org/"}>View Details</Link> 
+                    <Link href={"./syllabus#c-cnc-5"}>View Details</Link> 
                   </button>
                 </div>
               </div>
@@ -302,7 +302,7 @@ export default function Home() {
                     AC-351: Ambient Computing with Voice Assistants and Matter Protocol Devices.
                   </p>
                   <button className='font-inder font-bold py-2 px-10  bg-blue-900 text-cyan-500 rounded-xl hover:drop-shadow-[10px_20px_4px_rgba(0,0,0,0.25)] hover:bg-cyan-500 hover:text-blue-900'>
-                    <Link href={"https://www.piaic.org/"}>View Details</Link> 
+                    <Link href={"./syllabus#c-iot-4"}>View Details</Link> 
                   </button>
                 </div>
 
@@ -314,7 +314,7 @@ export default function Home() {
                     AC-361: Embedded Programming using C and Rust
                   </p>
                   <button className='font-inder font-bold py-2 px-10  bg-blue-900 text-cyan-500 rounded-xl hover:drop-shadow-[10px_20px_4px_rgba(0,0,0,0.25)] hover:bg-cyan-500 hover:text-blue-900'>
-                    <Link href={"https://www.piaic.org/"}>View Details</Link> 
+                    <Link href={"./syllabus#c-iot-5"}>View Details</Link> 
                   </button>
                 </div>
               </div>
@@ -352,7 +352,7 @@ export default function Home() {
                     Bio-351: Python for Biologists.
                   </p>
                   <button className='font-inder font-bold py-2 px-10  bg-blue-900 text-cyan-500 rounded-xl hover:drop-shadow-[10px_20px_4px_rgba(0,0,0,0.25)] hover:bg-cyan-500 hover:text-blue-900'>
-                    <Link href={"https://www.piaic.org/"}>View Details</Link> 
+                    <Link href={"./syllabus#c-bio-4"}>View Details</Link> 
                   </button>
                 </div>
 
@@ -364,7 +364,7 @@ export default function Home() {
                     Bio-361: Bioinformatics with Python
                   </p>
                   <button className='font-inder font-bold py-2 px-10  bg-blue-900 text-cyan-500 rounded-xl hover:drop-shadow-[10px_20px_4px_rgba(0,0,0,0.25)] hover:bg-cyan-500 hover:text-blue-900'>
-                    <Link href={"https://www.piaic.org/"}>View Details</Link> 
+                    <Link href={"./syllabus#c-bio-5"}>View Details</Link> 
                   </button>
                 </div>
               </div>
@@ -403,7 +403,7 @@ export default function Home() {
                     NPA-351: CCNA 200-301 Certification.
                   </p>
                   <button className='font-inder font-bold py-2 px-10  bg-blue-900 text-cyan-500 rounded-xl hover:drop-shadow-[10px_20px_4px_rgba(0,0,0,0.25)] hover:bg-cyan-500 hover:text-blue-900'>
-                    <Link href={"https://www.piaic.org/"}>View Details</Link> 
+                    <Link href={"./syllabus#c-net-4"}>View Details</Link> 
                   </button>
                 </div>
 
@@ -415,7 +415,7 @@ export default function Home() {
                     NPA-361: Network Programmability and Automation
                   </p>
                   <button className='font-inder font-bold py-2 px-10  bg-blue-900 text-cyan-500 rounded-xl hover:drop-shadow-[10px_20px_4px_rgba(0,0,0,0.25)] hover:bg-cyan-500 hover:text-blue-900'>
-                    <Link href={"https://www.piaic.org/"}>View Details</Link> 
+                    <Link href={"./syllabus#c-net-5"}>View Details</Link> 
                   </button>
                 </div>
               </div>

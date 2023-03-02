@@ -26,9 +26,9 @@ export default function RootLayout({
     <html lang="en" className={`${inder.variable}`}>
       <body>
         <Nav/>        
-        <div className={` md:flex`}>
+        {/* <div className={` md:flex`}> */}
           <Sidebar/>
-        </div>
+        {/* </div> */}
         {children}
       </body>
     </html>
